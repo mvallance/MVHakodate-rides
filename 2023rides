@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cycling Activities on Strava</title>
+    <script async src="https://strava-embeds.com/embed.js"></script>
+    <style>
+        /* Basic CSS for a clean, cycling-themed layout */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f2f5;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            color: #fc4c02; /* Strava Orange */
+            text-align: center;
+            margin-bottom: 5px;
+        }
+        p.subtitle {
+            text-align: center;
+            margin-bottom: 30px;
+            color: #666;
+            font-style: italic;
+        }
+        .activity-gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr)); /* Responsive grid of 350px minimum width */
+            gap: 20px; /* Space between each embedded activity */
+            padding-top: 20px;
+        }
+        .activity-card {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 10px;
+            background-color: #fafafa;
+            /* Ensure Strava embeds fit well */
+            overflow: hidden; 
+        }
+        /* Style for the instructions section */
+        .instructions {
+            background-color: #fff0e9;
+            border-left: 5px solid #fc4c02;
+            padding: 15px;
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>My Cycling Adventures 2023</h1>
+        <p class="subtitle">MV Hakodate</p>
+
+        <div class="instructions">
+            <h2>Cycling the Oshima region of Hokkaido</h2>
+            <ol>
+                <li>I started cycling in July 2022.</li>
+                <li>I ride a SPECIALIZED HARDROCK mountain bike which I absolutely love.</li>
+                <li>I aim to discover historical places and local heritage.</li>
+                <li>I particularly enjoy riding new routes and gravel roads within the surrounding mountains, though must be careful of the bears.</li>
+                <li>The emphasis is on increased health and mental well-being, not power and speed.</li>
+            </ol>
+        </div>
+
+        <div class="activity-gallery">
+
+            <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="[MOST_RECENT_ACTIVITY_ID]" data-style="standard" data-image_alignment="center"></div>
+            </div>
+
+              <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="10356156271" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+              <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="10203312444" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                          <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="10203340130" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                          <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="10203312351" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                          <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="10203312235" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                          <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="10034297399" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                          <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="10005208940" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                          <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9946657581" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                          <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9908825340" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                          <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9864477844" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                          <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9826172768" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                          <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9772503361" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+            
+            
+            <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9721485758" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                        <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9675846986" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                        <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9671087239" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                        <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9629965884" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                        <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9591423425" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                        <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9597832272" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                        <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9540726527" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                        <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9503931586" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                        <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9465747127" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                        <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9409518696" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                                    <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9365692129" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+
+                                   <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9329270709" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+
+                                   <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9286456790" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+
+                                   <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9242516643" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+
+                                   <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9198260868" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+
+                                   <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9147683104" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+
+                                   <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9103650706" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                                               <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9061018774" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                                               <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="9012978317" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                                               <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="8975286316" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                                               <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="8933521632" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                                               <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="8892227299" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                                               <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="8851258521" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                                               <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="8810946284" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                                               <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="8800903745" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                                               <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="8756374947" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+                                                           <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="8750024170" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+
+                                                           <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="8738591164" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+
+
+                                                           <div class="activity-card">
+                <div class="strava-embed-placeholder" data-embed-type="activity" data-embed-id="8694059048" data-style="standard"></div><script src="https://strava-embeds.com/embed.js"></script>
+            </div>
+                       
+
+                <div class="container">
+        <h1>Michael Vallance</h1>
+        <p class="subtitle">Hakodate, Hokkaido, Japan</p>
+
+        <div class="about">
+            <h2>Further information</h2>
+            <ol>
+                <li><a href="https://www.youtube.com/@marmaladeyuki">YouTube Channel with narrated videos of rides </a></li>
+                <li><a href="https://mvallance4.wixsite.com/virtual-heritage">Heritage Website including VR and AI research </a></li>
+                <li>Email:<a href="mailto:mvallance1234@gmail.com"> mvallance1234@gmail.com</a></li>
+            </ol>
+        </div>
+
+        </div>
+        </div>
+
+</body>
+</html>
